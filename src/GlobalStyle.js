@@ -2,12 +2,12 @@ import { createGlobalStyle } from 'styled-components';
 // const means it wont change 
 export const GlobalStyle = createGlobalStyle`
 :root {
-    --maxWidth:1280 px;
+    --maxWidth:1280px;
     --white: #fff;
     --lightGrey: #eee;
     --medGrey:#353535;
     --darkGrey:#1c1c1c;
-    --fontSuperBid: 2.5rem;
+    --fontSuperBig: 2.5rem;
     --fontBig: 1.5rem;
     --fontMed: 1.2rem;
     --fontSmall: 1rem;
@@ -25,7 +25,7 @@ body{
     h1{
         font-size: 2rem;
         font-weight :600;
-        color:var(--white);
+        color: var(--white);
     }
     h3{
         font-size: 1.1rem;
